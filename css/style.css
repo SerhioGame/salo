@@ -1,0 +1,415 @@
+body{
+    background-color: #000000;
+}
+.lik {
+    color: rgb(255, 140, 0);
+}
+
+.slider {
+    justify-content: space-between;
+    margin-top: 30px;
+    text-align: left;
+}
+
+.slider__item {
+    width: 24%;
+    padding: 20px 0;
+    position: relative;
+
+    border-top: 3px solid #fff;
+    opacity: .5;
+
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+html {
+    scroll-behavior: smooth;
+
+}
+
+.slider__item.active {
+    opacity: 1;
+}
+
+.slider__item.active:before {
+    content: "";
+    display: block;
+    background-color: #af4e00;
+    width: 70px;
+    height: 3px;
+    position: absolute;
+    top: -3px;
+    left: 0;
+    z-index: 1;
+}
+
+.slider__item.active2 {
+    opacity: 1;
+}
+
+.slider__item.active2::before {
+    content: "";
+    display: block;
+    background-color: #af4e00;
+    width: 180px;
+    height: 3px;
+    position: absolute;
+    top: -3px;
+    left: 0;
+    z-index: 1;
+}
+
+.slider__num {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #ffffff;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+
+.conteiner {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+
+
+.intro__title::after {
+    content: "";
+    display: block;
+    opacity: 0;
+    width: 65px;
+    height: 4px;
+    background-color: #fff;
+    margin: 30px auto;
+}
+
+.header {
+    width: 100%;
+    padding-top: 25px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50 0 5px;
+}
+
+
+.header__logo {
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+    
+}
+
+.nav {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.nav__link {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 30px;
+    position: relative;
+
+    color: #fff;
+    text-decoration: 0;
+    transition: color .1s linear;
+}
+
+.nav__link:hover {
+    color: #af4e00;
+}
+
+.nav__link:hover::after {
+    opacity: 1;
+}
+
+
+.button {
+    display: inline-block;
+    vertical-align: top;
+    padding: 7px 15px;
+    border: 3px solid #000000;
+    color: #0f0f0f;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 700;
+    text-decoration: none;
+    transition: background .8s linear,
+        color .9s linear;
+    border-radius: 20px;
+
+}
+
+.button:hover {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+/*section*/
+.section {
+    
+    padding: 300px 0;
+    background-color: black;
+    margin: 0;
+    height: 60vh;
+    font-size: 20px;
+    font-family: 'Konkhmer Sleokchher', cursive;
+}
+
+.section__header {
+    width: 70%;
+    min-width: 1000px;
+    margin: 0 auto 40px;
+    color: #fff;
+    text-align: center;
+}
+
+.section__suptitle {
+    font-family: 'Konkhmer Sleokchher', cursive;
+    font-size: 30px;
+    color: #fff;
+}
+
+
+
+
+
+.flex {
+    background: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.word {
+    background: rgba(255, 255, 255, 0.753);
+    color: rgb(0, 0, 0);
+    width: 450px;
+    text-align: center;
+    padding: 20px;
+    margin: 40px;
+    height: 550px;
+    border-radius: 30px;
+
+}
+
+.word>img {
+    width: 350px;
+    height: 250px;
+    
+}
+
+/*section-2*/
+.section-2 {
+    padding: 80px 0px;
+    background-color: rgb(12, 11, 11);
+    margin: 0px;
+    height: 45vh;
+}
+
+.section__header-2 {
+    width: 70%;
+    min-width: 900px;
+    margin: 0 auto 40px;
+    color: #fff;
+    text-align: center;
+}
+
+.section__suptitle-2 {
+    font-family: 'Konkhmer Sleokchher', cursive;
+    font-size: 30px;
+    color: #fff;
+    margin: 0px;
+    height: 30px;
+}
+
+.section__title-2 {
+    font-family: 'Bagel Fat One', cursive;
+    font-size: 100px;
+    color: #fff;
+}
+
+.button-2 {
+    display: inline-block;
+    vertical-align: top;
+    padding: 1px 8px;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 100;
+    text-decoration: none;
+    transition: background .8s linear,
+        color .9s linear;
+    border-radius: 20px;
+    margin: 5px;
+
+}
+
+.button-2:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.button-3 {
+    display: inline-block;
+    vertical-align: top;
+    padding: 7px 15px;
+    border: 3px solid #ffffff;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 700;
+    text-decoration: none;
+    transition: background .8s linear,
+        color .9s linear;
+    border-radius: 20px;
+
+
+}
+
+.button-3:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+
+
+
+.button-4 {
+    display: inline-block;
+    vertical-align: top;
+    padding: 1px 8px;
+
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 100;
+    text-decoration: none;
+    transition: background .6s linear,
+        color .7s linear;
+
+    margin: 35px;
+
+}
+
+.button-4:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+@media (max-width: 768px) {
+
+    /* HEADER */
+    .header {
+        position: relative;
+        padding-top: 10px;
+    }
+
+    .header__inner {
+        flex-direction: column;
+        gap: 15px;
+        margin: 0;
+    }
+
+    .nav__link {
+        margin: 5px 0;
+        font-size: 16px;
+    }
+
+    .header__logo {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    /* SECTION (описание) */
+    .section {
+        padding: 120px 20px;
+        height: auto;
+        font-size: 16px;
+    }
+
+    .section__header {
+        width: 100%;
+        min-width: unset;
+        padding: 0 10px;
+    }
+
+    /* КАРТОЧКИ ТОВАРОВ */
+    .flex {
+        flex-direction: column;
+    }
+
+    .word {
+        width: 70%;
+        height: auto;
+        margin: 20px 0;
+        padding: 15px;
+    }
+
+    .word img {
+        width: 85%;
+        height: auto;
+        border-radius: 15px;
+    }
+
+    /* КНОПКИ */
+    .button {
+        font-size: 14px;
+        padding: 8px 18px;
+    }
+
+    /* FOOTER / SECTION-2 */
+    .section-2 {
+        height: auto;
+        padding: 40px 15px;
+    }
+
+    .section__header-2 {
+        width: 100%;
+        min-width: unset;
+    }
+
+    .button-4 {
+        display: block;
+        margin: 15px 0;
+        font-size: 14px;
+    }
+}
