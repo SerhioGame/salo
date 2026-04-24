@@ -1,0 +1,466 @@
+body {
+    background-color: rgb(0, 0, 0);
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    background:rgb(165, 88, 32);
+    border: 2px solid rgb(165, 88, 32);
+    border-radius: 0px 0px 15px 15px;
+    box-shadow: 2px 4px 8px 1px rgb(165, 88, 32);
+    position: sticky;
+    /* z-index: 1000; */
+    top: 0;
+
+
+
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin: 20px;
+    padding: 0px 120px 0px 0px; */
+    padding:15px 20px ;
+
+    font-size: 18px;
+
+}
+
+.header__logo {
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 2px 15px;
+}
+
+.header__inner>a {
+
+    transition: background .8s linear, color .4s linear;
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    vertical-align: top;
+    padding: 7px 15px;
+
+
+
+
+}
+
+.header__inner>a:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+
+.section {
+    
+    font-family: 'Bagel Fat One', cursive;
+    margin: 50px 20px 80px 20px;
+    text-align: center;
+}
+
+
+.section-text {
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    padding: 100px 50px;
+
+}
+.section-text>.salo{
+    color: chocolate;
+    font-size: 40px;
+}
+.section-txt {
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    padding: 100px 0px 0px 250px;
+    justify-content: left;
+    display: flex;
+
+}
+
+main {
+    margin: 0px auto;
+    padding: 0 125px;
+    font-family: 'Konkhmer Sleokchher', cursive;
+}
+
+
+.product {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 140px 0;
+    gap: 50px;
+
+}
+
+.card {
+    margin: 70px 0px;
+    /* width: 350px;
+    height: 410px; */
+    width: 100%;
+    max-width: 355px ;
+    height: 305px;
+    overflow: hidden;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.815);
+    border-radius: 20px;
+    box-shadow: 0 0 5px white;
+    font-size: 18px;
+}
+
+.card>img {
+    width: 350px;
+    height: 300px;
+    border-radius: 15px;
+
+}
+
+.card>a {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    font-size: 20px;
+    padding: 2px 20px;
+    border-radius: 5px;
+}
+
+.card>a:hover {
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    transition: background .3s linear,
+        color .3s linear;
+}
+
+.description {
+
+    color: white;
+    flex: 1;
+    padding: 0px 300px 0px 0px;
+}
+
+
+
+.description>h2 {
+    font-size: 40px;
+    color: chocolate;
+}
+
+.description>p {
+    font-size: 22px;
+}
+.description-reverse{
+    color: white;
+    flex: 1;
+    margin: 0px 0px 0px 350px;
+}
+.description-reverse>h2{
+
+    font-size: 40px;
+    color: chocolate;
+}
+.description-reverse>p{
+
+    font-size: 22px;
+}
+
+.buy{
+    margin: 200px 0px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.buy-txt{
+    color: white;
+    padding: 0 150px;
+    font-size: 20px;
+}
+.buy-txt a{
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 0 10px;
+    background-color: white;
+}
+.buy-txt a:hover{
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    transition: background .2s linear,
+        color .2s linear;
+
+}
+
+/* Переворот */
+.product.reverse {
+    flex-direction: row-reverse;
+}
+
+.section-2 {
+    padding: 80px 0px;
+    background-color: rgb(12, 11, 11);
+    margin: 0px;
+    height: 20vh;
+}
+
+.section__header-2 {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto ;
+    color: #fff;
+    text-align: center;
+}
+
+.section__suptitle-2 {
+    font-family: 'Konkhmer Sleokchher', cursive;
+    font-size: 30px;
+    color: #fff;
+    margin: 0px;
+    height: 30px;
+}
+
+.section__title-2 {
+    font-family: 'Bagel Fat One', cursive;
+    font-size: 100px;
+    color: #fff;
+}
+
+.button-2 {
+    display: inline-block;
+    vertical-align: top;
+    padding: 1px 8px;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 100;
+    text-decoration: none;
+    transition: background .8s linear,
+        color .9s linear;
+    border-radius: 20px;
+    margin: 5px;
+
+}
+
+.button-2:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.button-3 {
+    display: inline-block;
+    vertical-align: top;
+    padding: 7px 15px;
+    border: 3px solid #ffffff;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 700;
+    text-decoration: none;
+    transition: background .8s linear,
+        color .9s linear;
+    border-radius: 20px;
+}
+
+
+.button-3:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+
+
+
+.button-4 {
+    display: inline-block;
+    vertical-align: top;
+    padding: 1px 8px;
+
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 100;
+    text-decoration: none;
+    transition: background .6s linear,
+        color .7s linear;
+
+    margin: 35px;
+
+}
+
+.button-4:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+
+/* 📱 ПЛАНШЕТЫ И ТЕЛЕФОНЫ */
+@media (max-width: 1024px) {
+
+    main {
+        padding: 0 15px; /* было 125px */
+    }
+
+    .section {
+        margin: 40px 10px;
+    }
+
+    .section-text {
+        padding: 40px 20px;
+        font-size: 22px;
+    }
+
+    .section-txt {
+        padding: 40px 20px; /* убрали 250px */
+        justify-content: center;
+        text-align: center;
+    }
+
+    .product {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .product.reverse {
+        flex-direction: column;
+    }
+
+    .description {
+        padding: 0;
+    }
+
+    .description h2 {
+        font-size: 22px;
+    }
+
+    .description p {
+        font-size: 18px;
+    }
+    .description-reverse {
+        padding: 0;
+        margin-top: 70px;
+        margin: auto;
+    }
+    .description-reverse h2 {
+        font-size: 22px;
+    }
+
+    .description-reverse p {
+        font-size: 18px;
+    }
+    
+
+    .card {
+        height: 100%;
+        max-height: 200px; /* убрали фикс высоту */
+        margin: 0px;
+    }
+
+    .card img {
+        width: 100%;
+        height: auto;
+    }
+
+    .buy{
+        margin: 0px;
+    }
+    .buy-txt{
+        color: white;
+        padding: 120px;
+        font-size: 20px;
+    }
+    .buy-txt a{
+        display: flex;
+        justify-content: center;
+        padding: 5px 0px;
+    }
+
+    .section__title-2 {
+        font-size: 50px;
+    }
+
+    .section-2 {
+        height: auto; /* убрали 20vh */
+        padding: 40px 15px;
+    }
+}
+
+/* 📱 МАЛЕНЬКИЕ ТЕЛЕФОНЫ */
+@media (max-width: 480px) {
+
+    .header__logo {
+        font-size: 20px;
+    }
+
+    .header__inner {
+        flex-direction: column;
+        align-items: center;
+    }
+    .section-text>.salo{
+        font-size: 22px;
+    }
+
+    .section-text {
+        font-size: 15px;
+    }
+
+    .section-txt {
+        font-size: 15px;
+    }
+
+    .description h2 {
+        font-size: 20px;
+    }
+
+    .description p {
+        font-size: 15px;
+    }
+    .description-reverse h2 {
+        font-size: 20px;
+    }
+
+    .description-reverse p {
+        font-size: 15px;
+    }
+    .buy{
+        margin: 25px;
+    }
+    .buy-txt{
+        padding: 10px;
+        font-size: 15px;
+    }
+    .buy-txt a{
+        display: flex;
+        justify-content: center;
+        color: rgb(0, 0, 0);
+        border: 2px solid rgb(255, 255, 255);
+        border-radius: 5px;
+        margin: 10px;
+        padding: 5px 0px;
+        background-color: white;
+    }
+
+    .section-2 {
+        font-size: 13px;
+    }
+    .section__suptitle-2{
+        font-size: 20px;
+    }
+
+    .button-2,
+    .button-3,
+    .button-4 {
+        font-size: 12px;
+        padding: 5px 10px;
+    }
+}
+
+
