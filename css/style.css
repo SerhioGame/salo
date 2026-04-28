@@ -23,7 +23,7 @@ a:hover{
 
 }
 .video-wrapper {
-    margin: 260px 0px 0px 50px;
+    margin: 230px 0px 0px 35px;
     display: block;
     min-height: 100vh;         
   }
@@ -36,6 +36,6 @@ a:hover{
   }
   .video-wrapper p{
     color: chocolate;
-    font-size: 35px;
+    font-size: 30px;
     font-weight: 800;
   }
