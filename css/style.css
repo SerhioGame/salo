@@ -22,3 +22,16 @@ a:hover{
     background-color: wheat;
 
 }
+.video-wrapper {
+    display: flex;
+    justify-content: center;   /* по горизонтали */
+    align-items: center;       /* по вертикали */
+    min-height: 100vh;         /* высота экрана */
+  }
+  
+  .video-wrapper video {
+    width: 90%;
+    max-width: 800px;
+    height: auto;
+    border-radius: 12px;
+  }
